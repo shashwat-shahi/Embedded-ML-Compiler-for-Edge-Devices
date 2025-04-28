@@ -1,0 +1,68 @@
+# Build directories
+build/
+bin/
+lib/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.cmake
+
+# Compiled objects and libraries
+*.o
+*.so
+*.a
+*.dll
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing artifacts
+Testing/
+CTestCostData.txt
+LastTest.log
+LastTestsFailed.log
+
+# Model files for testing
+*.tflite
+*.onnx
+*.pb
+*.pbtxt
+
+# Generated code and binaries
+*.bin
+*.hex
+*.elf
+
+# ARM toolchain artifacts
+*.map
+*.list
+*.axf
+
+# Zephyr artifacts
+zephyr/
+zephyr.exe
+zephyr.elf
+zephyr.bin
